@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<?php if(!class_exists('Rain\Tpl')){exit;}?><!DOCTYPE html>
 <html>
   <head>
     <title>TotClean Admin Dashboard</title>
@@ -139,7 +139,7 @@
                   <span>Meu perfil</span></a>
               </li>
               <li class="menu">
-                <a href="#">
+                <a href="/Totclean/admin/logout">
                   <div class="icon-w">
                     <div class="dripicons-power"></div>
                   </div>
@@ -193,7 +193,7 @@
                     <a href="users_profile_small.html"><i class="dripicons-gear"></i><span>Meu perfil</span></a>
                   </li>
                   <li>
-                    <a href="#"><i class="dripicons-power"></i><span>Sair</span></a>
+                    <a href="/Totclean/admin/logout"><i class="dripicons-power"></i><span>Sair</span></a>
                   </li>
                 </ul>
               </div>
@@ -285,7 +285,7 @@
                   <span>Meu perfil</span></a>
               </li>
               <li class="menu">
-                <a href="#">
+                <a href="/Totclean/admin/logout">
                   <div class="icon-w">
                     <div class="dripicons-power"></div>
                   </div>

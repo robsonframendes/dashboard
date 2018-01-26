@@ -6,17 +6,17 @@
     <meta content="ie=edge" http-equiv="x-ua-compatible">
     <meta content="TotClean Admin dashboard" name="description">
     <meta content="width=device-width, initial-scale=1" name="viewport">
-    <link href="../site/resources/favicon.png" rel="shortcut icon">
-    <link href="../site/resources/apple-touch-icon.png" rel="apple-touch-icon">
-    <link href="../site/resources/fast.fonts.net/cssapi/175a63a1-3f26-476a-ab32-4e21cbdb8be2.css" rel="stylesheet" type="text/css">
-    <link href="../site/resources/select2/dist/css/select2.min.css" rel="stylesheet">
-    <link href="../site/resources/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
-    <link href="../site/resources/dropzone/dist/dropzone.css" rel="stylesheet">
-    <link href="../site/resources/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
-    <link href="../site/resources/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">
-    <link href="../site/resources/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet">
-    <link href="../site/resources/css/main.css?version=2.6" rel="stylesheet">
-    <link href="../site/resources/icon_fonts_assets/dripicons/webfont.css" rel="stylesheet">   
+    <link href="/Totclean/site/resources/favicon.png" rel="shortcut icon">
+    <link href="/Totclean/site/resources/apple-touch-icon.png" rel="apple-touch-icon">
+    <link href="/Totclean/site/resources/fast.fonts.net/cssapi/175a63a1-3f26-476a-ab32-4e21cbdb8be2.css" rel="stylesheet" type="text/css">
+    <link href="/Totclean/site/resources/select2/dist/css/select2.min.css" rel="stylesheet">
+    <link href="/Totclean/site/resources/bootstrap-daterangepicker/daterangepicker.css" rel="stylesheet">
+    <link href="/Totclean/site/resources/dropzone/dist/dropzone.css" rel="stylesheet">
+    <link href="/Totclean/site/resources/datatables.net-bs/css/dataTables.bootstrap.min.css" rel="stylesheet">
+    <link href="/Totclean/site/resources/fullcalendar/dist/fullcalendar.min.css" rel="stylesheet">
+    <link href="/Totclean/site/resources/perfect-scrollbar/css/perfect-scrollbar.min.css" rel="stylesheet">
+    <link href="/Totclean/site/resources/css/main.css?version=2.6" rel="stylesheet">
+    <link href="/Totclean/site/resources/icon_fonts_assets/dripicons/webfont.css" rel="stylesheet">  
   </head>
   <body>
     <!--INI MENU MOBILE-->
@@ -24,7 +24,7 @@
       <div class="layout-w">
         <div class="menu-mobile menu-activated-on-click color-scheme">
           <div class="mm-logo-buttons-w">
-            <a class="mm-logo" href="index.html"><img src="../site/totclean_style/img/logo.png"><span>TotClean</span></a>
+            <a class="mm-logo" href="index.html"><img src="/Totclean/site/resources/img/logo.png"><span>TotClean</span></a>
             <div class="mm-buttons">
               <div class="content-panel-open">
                 <div class="os-icon os-icon-grid-circles"></div>
@@ -37,7 +37,7 @@
           <div class="menu-and-user">
             <div class="logged-user-w">
               <div class="avatar-w">
-                <img alt="" src="../site/totclean_style/img/avatar1.jpg">
+                <img alt="" src="/Totclean/site/resources/img/avatar1.jpg">
               </div>
               <div class="logged-user-info-w">                
                 <!-- INI NOME DO USUARIO-->
@@ -152,12 +152,12 @@
         <!--INI MENU DESKTOP-->  
         <div class="desktop-menu menu-side-w menu-activated-on-click">
           <div class="logo-w">
-            <a class="logo" href="index.html"><img src="../site/totclean_style/img/logo.png"><span>TotClean</span></a>
+            <a class="logo" href="index.html"><img src="/Totclean/site/resources/img/logo.png"><span>TotClean</span></a>
           </div>
           <div class="menu-and-user">
             <div class="logged-user-w">
               <div class="avatar-w">
-                <img alt="" src="../site/totclean_style/img/avatar1.jpg">
+                <img alt="" src="/Totclean/site/resources/img/avatar1.jpg">
               </div>
               <div class="logged-user-info-w">
                 <div class="logged-user-name">
@@ -169,7 +169,7 @@
               </div>
               <div class="logged-user-menu">
                 <div class="avatar-w">
-                  <img alt="" src="../site/totclean_style/img/avatar1.jpg">
+                  <img alt="" src="/Totclean/site/resources/img/avatar1.jpg">
                 </div>
                 <div class="logged-user-info-w">
                   <div class="logged-user-name">
