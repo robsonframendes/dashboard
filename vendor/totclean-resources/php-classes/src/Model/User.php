@@ -41,22 +41,25 @@ class User extends Model {
 		) {
 			//Não está logado
 			return false;
-
-		} else {
+		  } 
+		  
+		  else 
+		  
+		  {
 
 			if ($inadmin === true && (bool)$_SESSION[User::SESSION]['inadmin'] === true) {
 
 				return true;
 
-			} else if ($inadmin === false) {
-
-				return true;
-
-			} else {
-
-				return false;
-
-			}
+			} else 
+				if ($inadmin === false) 
+				{
+					return true;
+				} 
+				else 
+				{
+					return false;
+				}
 
 		}
 
@@ -103,16 +106,15 @@ class User extends Model {
 	{
 
 		if (!User::checkLogin($inadmin)) {
-
+			// caso  $inadmin = 1 ele carrega login de admin
 			if ($inadmin) {
-				header("Location: /admin/login");
+				header("Location: /Totclean/admin/login");
 			} else {
-				header("Location: /login");
+			// caso  $inadmin <> 1 ele carrega login de vendedor
+				header("Location: /Totclean/login");
 			}
 			exit;
-
 		}
-
 	}
 
 	public static function logout()

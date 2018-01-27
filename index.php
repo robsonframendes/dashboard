@@ -13,9 +13,23 @@ $app->config('debug', true);
 
 // get para chamar a pagina de vendedor
 $app->get('/', function()
-{    
+{   
+    User::verifylogin(); 
     $page = new Page();
     $page->setTpl("index");
+});
+
+// get para chamar a pagina de login de vendas
+$app->get('/login', function()
+{    
+    $page = new Page([
+
+        "header"=>false,
+        "footer"=>false
+
+    ]);
+
+    $page->setTpl("login");
 });
 
 // get para chamar a pagina de administradores
@@ -26,7 +40,7 @@ $app->get('/admin', function()
     $page->setTpl("index");
 });
 
-// get para chamar a pagina de login
+// get para chamar a pagina de login adm
 $app->get('/admin/login', function()
 {    
     $page = new PageAdmin([
